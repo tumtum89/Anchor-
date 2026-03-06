@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anchor Direct Primary Care | Greenville, TX</title>
+<meta name="description" content="Join the founding member waitlist for Anchor Direct Primary Care in Greenville, Texas. Relationship-based care, transparent pricing, and direct access to your provider.">
+<meta name="theme-color" content="#0B3C5D">
+<style>
+:root {
+    --navy: #0B3C5D;
+    --navy-dark: #082C45;
+    --teal: #1ABC9C;
+    --teal-dark: #16A085;
+    --bg: #F8FBFD;
+    --bg-soft: #EFF5F8;
+    --text: #2C3E50;
+    --muted: #5E7182;
+    --white: #FFFFFF;
+    --border: #D8E2E9;
+    --shadow: 0 14px 42px rgba(11, 60, 93, 0.08);
+    --radius: 16px;
+    --radius-sm: 12px;
+    --max: 1160px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+section { padding: 80px 20px; }
+.container { max-width: var(--max); margin: 0 auto; }
+.center { text-align: center; }
+.hidden { display: none !important; }
+
+h1, h2, h3 { margin-top: 0; }
+h1 {
+    font-size: 52px;
+    line-height: 1.08;
+    color: var(--navy);
+    margin-bottom: 16px;
+}
+h2 {
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--navy);
+    margin-bottom: 14px;
+    text-align: center;
+}
+h3 {
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+p { margin-top: 0; }
+.section-lead {
+    max-width: 760px;
+    margin: 0 auto 38px auto;
+    text-align: center;
+    color: var(--muted);
+    font-size: 18px;
+}
+.eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--teal-dark);
+    margin-bottom: 16px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 15px 26px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: 0.25s ease;
+    font-size: 16px;
+    min-height: 52px;
+}
+.btn-primary {
+    background: var(--teal);
+    color: var(--white);
+}
+.btn-primary:hover {
+    background: var(--teal-dark);
+    transform: translateY(-2px);
+}
+.btn-secondary {
+    background: var(--white);
+    color: var(--navy);
+    border: 1px solid var(--border);
+}
+.btn-secondary:hover {
+    transform: translateY(-2px);
+    background: #FCFEFF;
+}
+.btn-full { width: 100%; }
+
+.hero {
+    background: linear-gradient(180deg, #F9FBFD 0%, #EEF4F8 100%);
+    padding: 56px 20px 88px;
+}
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.08fr 0.92fr;
+    gap: 34px;
+    align-items: center;
+}
+.hero-copy { text-align: left; }
+.hero-subheadline {
+    font-size: 20px;
+    color: var(--muted);
+    margin-bottom: 26px;
+    max-width: 660px;
+}
+.hero-bullets {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 28px 0;
+}
+.hero-bullets li {
+    background: rgba(255,255,255,0.74);
+    border: 1px solid rgba(216,226,233,0.8);
+    border-radius: 12px;
+    padding: 12px 14px;
+    font-weight: 600;
+    color: var(--navy);
+}
+.hero-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+.hero-micro {
+    color: var(--muted);
+    font-size: 14px;
+}
+.hero-card {
+    background: var(--white);
+    box-shadow: var(--shadow);
+    border-radius: 20px;
+    padding: 28px;
+}
+.hero-logo {
+    max-width: 300px;
+    margin: 0 auto 18px;
+}
+.hero-form-title {
+    text-align: center;
+    font-size: 26px;
+    color: var(--navy);
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+.hero-form-subtitle {
+    text-align: center;
+    color: var(--muted);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.trust-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 18px;
+}
+.trust-pill {
+    background: var(--bg-soft);
+    color: var(--navy);
+    border-radius: 12px;
+    padding: 10px 12px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.waitlist-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.waitlist-form input,
+.waitlist-form select,
+.waitlist-form textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    font-size: 16px;
+    font-family: inherit;
+    background: var(--white);
+    color: var(--text);
+}
+.waitlist-form textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+.waitlist-form input:focus,
+.waitlist-form select:focus,
+.waitlist-form textarea:focus {
+    outline: none;
+    border-color: var(--teal);
+    box-shadow: 0 0 0 3px rgba(26,188,156,0.14);
+}
+.form-disclaimer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 10px;
+}
+.source-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+.source-chip {
+    border: 1px solid var(--border);
+    background: var(--bg-soft);
+    color: var(--navy);
+    border-radius: 999px;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.stats { padding-top: 0; margin-top: -30px; }
+.stats-grid {
+    background: var(--white);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.stat {
+    padding: 24px 18px;
+    text-align: center;
+    border-right: 1px solid var(--border);
+}
+.stat:last-child { border-right: none; }
+.stat-number {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 800;
+    color: var(--navy);
+    margin-bottom: 8px;
+}
+.stat-label {
+    color: var(--muted);
+    font-size: 15px;
+}
+
+.soft-section { background: var(--bg-soft); }
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+.card {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 28px;
+}
+.card h3 { color: var(--navy); }
+.card p,
+.card li { color: var(--muted); }
+.card.highlight {
+    background: var(--navy);
+    transform: scale(1.02);
+}
+.card.highlight h3,
+.card.highlight p,
+.card.highlight li,
+.card.highlight .price { color: var(--white); }
+.price {
+    color: var(--navy);
+    font-size: 34px;
+    font-weight: 800;
+    margin: 6px 0 14px;
+}
+.card ul {
+    margin: 0;
+    padding-left: 18px;
+}
+.card li { margin-bottom: 9px; }
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+.testimonial {
+    background: var(--white);
+    box-shadow: var(--shadow);
+    border-radius: 16px;
+    padding: 28px;
+    position: relative;
+}
+.testimonial::before {
+    content: '“';
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    font-size: 58px;
+    line-height: 1;
+    color: rgba(11,60,93,0.12);
+    font-weight: 800;
+}
+.stars {
+    color: #E4A700;
+    letter-spacing: 0.08em;
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+.quote {
+    color: var(--text);
+    font-size: 17px;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 1;
+}
+.attribution {
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 34px;
+    align-items: center;
+}
+.provider-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: var(--shadow);
+}
+.family-image {
+    width: 100%;
+    max-width: 560px;
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    margin: 28px auto 0;
+}
+
+.table-wrap {
+    background: var(--white);
+    box-shadow: var(--shadow);
+    border-radius: 18px;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    min-width: 850px;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 18px;
+    border-bottom: 1px solid #E7EEF2;
+    text-align: center;
+}
+th:first-child, td:first-child {
+    text-align: left;
+    font-weight: 700;
+}
+th {
+    background: #F7FAFC;
+    color: var(--navy);
+}
+.anchor-col {
+    background: var(--navy);
+    color: var(--white);
+}
+.anchor-col * { color: var(--white); }
+
+.savings-band,
+.employer-box,
+.final-box,
+.thankyou-card {
+    background: var(--white);
+    box-shadow: var(--shadow);
+    border-radius: 20px;
+    padding: 36px;
+}
+.savings-band {
+    background: linear-gradient(135deg, var(--teal), var(--teal-dark));
+    color: var(--white);
+    text-align: center;
+}
+.savings-band h2,
+.savings-band h3,
+.savings-band p { color: var(--white); }
+.final-cta {
+    background: linear-gradient(180deg, #EEF4F8 0%, #F9FBFD 100%);
+}
+.final-box {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+.final-box p {
+    color: var(--muted);
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+.faq-wrap { max-width: 850px; margin: 0 auto; }
+.faq-item {
+    background: var(--white);
+    box-shadow: var(--shadow);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+.faq-item h3 { color: var(--navy); margin-bottom: 8px; }
+.faq-item p { color: var(--muted); margin-bottom: 0; }
+
+.thankyou-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(180deg, #F9FBFD 0%, #EEF4F8 100%);
+}
+.thankyou-card {
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+}
+.thankyou-logo {
+    max-width: 180px;
+    margin: 0 auto 18px;
+}
+.thankyou-card h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+.next-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 28px 0;
+}
+.next-step {
+    background: var(--bg-soft);
+    border-radius: 14px;
+    padding: 18px;
+}
+.next-step strong {
+    display: block;
+    color: var(--navy);
+    margin-bottom: 6px;
+}
+.referral-box {
+    margin-top: 26px;
+    text-align: left;
+    background: #F7FBFD;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 24px;
+}
+.referral-box h3 {
+    color: var(--navy);
+    margin-bottom: 10px;
+}
+.referral-link-wrap {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 16px 0 18px;
+}
+.referral-link-input {
+    flex: 1 1 420px;
+    min-width: 260px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    font-size: 14px;
+    background: var(--white);
+    color: var(--text);
+    word-break: break-all;
+    overflow-wrap: anywhere;
+}
+.referral-rewards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 12px;
+}
+.reward-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px;
+}
+.reward-card strong {
+    display: block;
+    color: var(--navy);
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.reward-card span {
+    color: var(--muted);
+    font-size: 15px;
+}
+.referral-note {
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.mobile-sticky-cta {
+    display: none;
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    z-index: 999;
+    background: rgba(255,255,255,0.96);
+    border: 1px solid rgba(216,226,233,0.95);
+    box-shadow: 0 12px 40px rgba(11,60,93,0.16);
+    border-radius: 16px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+}
+.mobile-sticky-cta .btn {
+    width: 100%;
+    min-height: 60px;
+    font-size: 18px;
+}
+
+.floating-join-btn {
+    position: fixed;
+    right: 16px;
+    bottom: 92px;
+    z-index: 998;
+    background: var(--teal);
+    color: var(--white);
+    padding: 14px 20px;
+    border-radius: 999px;
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow: 0 10px 28px rgba(11,60,93,0.22);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(12px);
+}
+
+.floating-join-btn.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 980px) {
+    h1 { font-size: 40px; }
+    h2 { font-size: 32px; }
+    .hero-grid,
+    .about-grid,
+    .card-grid,
+    .testimonial-grid,
+    .next-steps,
+    .stats-grid,
+    .referral-rewards { grid-template-columns: 1fr; }
+    .hero-copy { text-align: center; }
+    .hero-bullets { grid-template-columns: 1fr; }
+    .stat { border-right: none; border-bottom: 1px solid var(--border); }
+    .stat:last-child { border-bottom: none; }
+    .form-row { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+    section { padding: 64px 18px; }
+    .hero { padding: 38px 18px 88px; }
+    .hero-actions { flex-direction: column; }
+    .hero-actions .btn { width: 100%; }
+    .trust-row { grid-template-columns: 1fr; }
+    .mobile-sticky-cta { display: block; }
+    .floating-join-btn { display: inline-flex; }
+    body.has-sticky-space { padding-bottom: 88px; }
+    .referral-link-wrap { flex-direction: column; }
+}
+
+@media (min-width: 769px) {
+    .floating-join-btn {
+        display: none;
+    }
+}
+    .hero { padding: 38px 18px 88px; }
+    .hero-actions { flex-direction: column; }
+    .hero-actions .btn { width: 100%; }
+    .trust-row { grid-template-columns: 1fr; }
+    .mobile-sticky-cta { display: block; }
+    body.has-sticky-space { padding-bottom: 88px; }
+    .referral-link-wrap { flex-direction: column; }
+}
+
+@media (max-width: 560px) {
+    h1 { font-size: 34px; line-height: 1.2; }
+    .hero-subheadline { font-size: 18px; }
+    .thankyou-card h1 { font-size: 34px; }
+}
+    .hero-subheadline { font-size: 18px; }
+    .thankyou-card h1 { font-size: 34px; }
+}
+</style>
+</head>
+<body class="has-sticky-space">
+
+<div id="landingPage">
+    <section class="hero" id="top">
+        <div class="container hero-grid">
+            <div class="hero-copy">
+                <div class="eyebrow">Direct Primary Care in Greenville, Texas</div>
+                <h1>Personalized healthcare without the insurance hassle.</h1>
+                <p class="hero-subheadline">
+                    Join the founding member waitlist for Anchor Direct Primary Care and get early updates on opening plans, membership availability, and simple monthly pricing.
+                </p>
+
+                <ul class="hero-bullets">
+                    <li>Same-day or next-day visits</li>
+                    <li>Direct text, call, and message access</li>
+                    <li>Transparent monthly membership pricing</li>
+                    <li>Limited patient panel for more personal care</li>
+                </ul>
+
+                <div class="hero-actions">
+                    <a href="#join" class="btn btn-primary">Join the Founding Member Waitlist</a>
+                    <a href="#pricing" class="btn btn-secondary">See Pricing</a>
+                </div>
+
+                <div class="hero-micro">
+                    Founding member pricing is <strong>$79/month for the first 75 members</strong>. Total panel limited to 400 patients.
+                </div>
+            </div>
+
+            <div class="hero-card fade-in" id="join">
+                <img src="logo.png" alt="Anchor Direct Primary Care Logo" class="hero-logo">
+                <div class="hero-form-title">Reserve Founding Member Updates</div>
+                <div class="hero-form-subtitle">
+                    Founding member pricing is <strong>$79/month for the first 75 members</strong>. Join now for early access and opening updates.
+                </div>
+
+                <div class="source-chip-row" aria-hidden="true">
+                    <span class="source-chip">Facebook</span>
+                    <span class="source-chip">Google</span>
+                    <span class="source-chip">Word of Mouth</span>
+                </div>
+
+                <form id="waitlistForm" action="https://formspree.io/f/xqeykqlq" method="POST" class="waitlist-form">
+                    <input type="hidden" name="page_name" value="Anchor DPC Landing Page V3">
+                    <input type="hidden" name="submitted_at" id="submittedAt">
+                    <input type="hidden" name="referrer_url" id="referrerUrl">
+                    <input type="hidden" name="page_url" id="pageUrl">
+                    <input type="hidden" name="utm_source" id="utmSource">
+                    <input type="hidden" name="utm_medium" id="utmMedium">
+                    <input type="hidden" name="utm_campaign" id="utmCampaign">
+                    <input type="hidden" name="utm_term" id="utmTerm">
+                    <input type="hidden" name="utm_content" id="utmContent">
+                    <input type="hidden" name="referral_code" id="referralCodeField">
+                    <input type="hidden" name="referring_source_link" id="referringSourceLinkField">
+
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="form-row">
+                        <select name="how_did_you_hear_about_us" id="leadSource" required>
+                            <option value="">How did you hear about us?</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="google">Google</option>
+                            <option value="instagram">Instagram</option>
+                            <option value="word_of_mouth">Word of Mouth</option>
+                            <option value="friend_family">Friend / Family</option>
+                            <option value="employer">Employer</option>
+                            <option value="community_event">Community Event</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <select name="membership_interest">
+                            <option value="">Interested Membership</option>
+                            <option value="founding_member">Founding Member - $79 for first 75</option>
+                            <option value="individual">Individual Plan - $89/month</option>
+                            <option value="children">Children Plan - $45/month</option>
+                            <option value="family">Family Membership</option>
+                            <option value="employer">Employer Plan</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Get Early Access</button>
+                </form>
+
+                <div class="form-disclaimer">
+                    By submitting, you agree to be contacted about Anchor Direct Primary Care updates.
+                </div>
+
+                <div class="trust-row">
+                    <div class="trust-pill">Transparent Pricing</div>
+                    <div class="trust-pill">Direct Access</div>
+                    <div class="trust-pill">Limited Panel</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid fade-in">
+                <div class="stat">
+                    <div class="stat-number">$79/mo</div>
+                    <div class="stat-label">Founding member pricing for first 75</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">$89/mo</div>
+                    <div class="stat-label">Standard adult membership</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">$45/mo</div>
+                    <div class="stat-label">Child membership</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">400</div>
+                    <div class="stat-label">Maximum patient panel</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="soft-section fade-in">
+        <div class="container center">
+            <h2>Why families choose Anchor Direct Primary Care</h2>
+            <p class="section-lead">
+                Direct Primary Care focuses on access, relationships, and predictable monthly pricing so patients can get care without the usual delays and confusion.
+            </p>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>More Access</h3>
+                    <p>Reach your provider directly by text, call, or message and get same-day or next-day visits when needed.</p>
+                </div>
+                <div class="card">
+                    <h3>More Time</h3>
+                    <p>Longer, more personal appointments help patients feel heard instead of rushed through a packed schedule.</p>
+                </div>
+                <div class="card">
+                    <h3>More Clarity</h3>
+                    <p>Straightforward pricing helps you know what to expect without surprise bills or insurance complexity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fade-in">
+        <div class="container">
+            <h2>What future patients want most</h2>
+            <p class="section-lead">These are the themes people mention most often when looking for a better primary care experience.</p>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <div class="quote">I want a provider who actually knows me and my family instead of feeling like I am starting over every visit.</div>
+                    <div class="attribution">Prospective patient sentiment</div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <div class="quote">Being able to text or call when something comes up would save so much stress compared with waiting weeks for an appointment.</div>
+                    <div class="attribution">Prospective patient sentiment</div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <div class="quote">Clear monthly pricing and easier access would make healthcare feel much more manageable for our family.</div>
+                    <div class="attribution">Prospective patient sentiment</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fade-in">
+        <div class="container center">
+            <div class="savings-band" style="background:linear-gradient(135deg, #0B3C5D, #114C73);">
+                <h2>Founding Member Offer</h2>
+                <p><strong>$79/month for the first 75 members</strong></p>
+                <p>Secure early access now before standard membership pricing applies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="fade-in">
+        <div class="container about-grid">
+            <div>
+                <img src="provider.jpg" alt="TBD, Family Nurse Practitioner" class="provider-image">
+            </div>
+            <div>
+                <h2 style="text-align:left;">Meet Your Provider</h2>
+                <p>TBD, MSN, APRN, FNP-C is a board-certified Family Nurse Practitioner with over a decade of nursing experience including critical care and family practice.</p>
+                <p>She founded Anchor Direct Primary Care to bring relationship-based, accessible healthcare back to families in Greenville.</p>
+                <p>The goal is simple: make high-quality care easier to access, easier to understand, and more personal for every patient.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="soft-section fade-in">
+        <div class="container center">
+            <h2>Rooted in Family</h2>
+            <p class="section-lead">As a wife and mother, TBD understands how important dependable, accessible healthcare is for growing families.</p>
+            <img src="family.jpg" alt="The Busby Family" class="family-image">
+        </div>
+    </section>
+
+    <section class="fade-in" id="pricing">
+        <div class="container">
+            <h2>Simple, Transparent Pricing</h2>
+            <p class="section-lead">Straightforward monthly membership means easier access to care without the usual insurance friction.</p>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Founding Member</h3>
+                    <div class="price">$79<span style="font-size:16px;font-weight:600;">/month</span></div>
+                    <p style="font-weight:700;color:var(--teal-dark);margin-bottom:12px;">Founding member pricing for the first 75 members</p>
+                    <ul>
+                        <li>Unlimited visits</li>
+                        <li>Direct messaging access</li>
+                        <li>Same-day or next-day appointments</li>
+                        <li>Relationship-based primary care</li>
+                        <li>Locked-in early pricing for the first 75 members</li>
+                    </ul>
+                </div>
+                <div class="card highlight">
+                    <h3>Children</h3>
+                    <div class="price">$45<span style="font-size:16px;font-weight:600;">/month</span></div>
+                    <ul>
+                        <li>Affordable care for growing families</li>
+                        <li>Unlimited visits</li>
+                        <li>Priority scheduling</li>
+                        <li>Family-centered access</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Standard Adult</h3>
+                    <div class="price" style="font-size:28px;">$89<span style="font-size:16px;font-weight:600;">/month</span></div>
+                    <ul>
+                        <li>Simple adult membership pricing after founding spots fill</li>
+                        <li>Unlimited visits</li>
+                        <li>Direct access to your provider</li>
+                        <li>Same-day or next-day appointments</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Employer Plans</h3>
+                    <div class="price" style="font-size:28px;">Custom Pricing</div>
+                    <ul>
+                        <li>Support employee access to care</li>
+                        <li>Potentially lower claims costs</li>
+                        <li>Reduced absenteeism</li>
+                        <li>Built for local small businesses</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fade-in">
+        <div class="container">
+            <div class="savings-band">
+                <h2>Estimated Annual Savings</h2>
+                <p>The average insured patient spends $1,500–$3,000 annually.</p>
+                <h3>Anchor DPC Average Annual Cost: $1,080</h3>
+                <p><strong>Potential Savings: $600–$2,100 per year</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="fade-in">
+        <div class="container">
+            <h2>Healthcare Models Compared</h2>
+            <p class="section-lead">See how Anchor Direct Primary Care compares to traditional primary care and concierge medicine.</p>
+            <div class="table-wrap">
+                <table>
+                    <tr>
+                        <th>Feature</th>
+                        <th class="anchor-col">⚓ Anchor DPC</th>
+                        <th>Traditional Care</th>
+                        <th>Concierge Medicine</th>
+                    </tr>
+                    <tr>
+                        <td>Monthly Cost</td>
+                        <td class="anchor-col">$89/adult, $45/child</td>
+                        <td>Premiums + copays</td>
+                        <td>$150–$300+</td>
+                    </tr>
+                    <tr>
+                        <td>Wait Time</td>
+                        <td class="anchor-col">Same/Next Day</td>
+                        <td>1–3 Weeks</td>
+                        <td>Same/Next Day</td>
+                    </tr>
+                    <tr>
+                        <td>Direct Access</td>
+                        <td class="anchor-col">Text, Call, Message</td>
+                        <td>Limited</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Insurance Required</td>
+                        <td class="anchor-col">No</td>
+                        <td>Yes</td>
+                        <td>Often Yes</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="soft-section fade-in">
+        <div class="container">
+            <div class="employer-box center">
+                <h2>For Local Employers</h2>
+                <p class="section-lead" style="margin-bottom:24px;">
+                    Anchor Direct Primary Care partners with small businesses to improve employee access while reducing healthcare friction.
+                </p>
+                <a href="#join" class="btn btn-primary">Request Employer Information</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="fade-in">
+        <div class="container faq-wrap">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>Do you take insurance?</h3>
+                <p>No. We operate outside insurance to keep pricing simple and transparent.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I still use insurance?</h3>
+                <p>Yes. You can still use insurance for labs, imaging, medications, specialists, or outside services when needed.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is this concierge medicine?</h3>
+                <p>No. We provide concierge-level access at community-level pricing.</p>
+            </div>
+            <div class="faq-item">
+                <h3>When are you opening?</h3>
+                <p>Anchor Direct Primary Care is currently building its founding member list with plans to open in 2028.</p>
+            </div>
+        </div>
+    </section>
+
+    
+</div>
+
+<div id="thankYouPage" class="thankyou-page hidden">
+    <div class="thankyou-card">
+        <img src="logo.png" alt="Anchor Direct Primary Care Logo" class="thankyou-logo">
+        <div class="eyebrow">You’re on the waitlist</div>
+        <h1>Thank you for joining Anchor Direct Primary Care.</h1>
+        <p style="font-size:18px;color:var(--muted);max-width:620px;margin:0 auto 18px;">
+            We received your information and will keep you updated about opening plans, membership details, and next steps.
+        </p>
+        <p style="color:var(--muted);margin-bottom:0;">
+            Your source was recorded so you can see what is working best as you spread the word.
+        </p>
+
+        <div class="next-steps">
+            <div class="next-step">
+                <strong>Check your inbox</strong>
+                Look for future updates about opening and founding membership access.
+            </div>
+            <div class="next-step">
+                <strong>Save our name</strong>
+                Add Anchor Direct Primary Care to your contacts so updates do not get lost.
+            </div>
+            <div class="next-step">
+                <strong>Share your referral link</strong>
+                Invite friends and family to join the waitlist using your personal link below.
+            </div>
+        </div>
+
+        <div class="referral-box">
+            <h3>Referral Link</h3>
+            <p style="color:var(--muted);margin-bottom:0;">
+                Share this link. When someone joins through it, their submission will include your referral code.
+            </p>
+
+            <div class="referral-link-wrap">
+                <input type="text" id="referralLinkInput" class="referral-link-input" readonly>
+                <button type="button" id="copyReferralBtn" class="btn btn-primary">Copy Referral Link</button>
+            </div>
+
+            <h3 style="margin-top:8px;">Referral Rewards</h3>
+            <div class="referral-rewards">
+                <div class="reward-card">
+                    <strong>1 referral</strong>
+                    <span>$25 account credit</span>
+                </div>
+                <div class="reward-card">
+                    <strong>3 referrals</strong>
+                    <span>1 free month</span>
+                </div>
+            </div>
+
+            <div class="referral-note">
+                Reward tracking is based on the referral code attached to this link and your waitlist email. Review program terms before launch.
+            </div>
+        </div>
+
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px;">
+            <a href="#top" id="returnHomeBtn" class="btn btn-secondary">Back to Homepage</a>
+            <button type="button" id="shareBtn" class="btn btn-primary">Share the Waitlist</button>
+        </div>
+    </div>
+</div>
+
+<a href="#join" id="floatingJoinBtn" class="floating-join-btn">Get Early Access</a>
+
+<div class="mobile-sticky-cta">
+    <a href="#join" class="btn btn-primary">Get Early Access</a>
+</div>
+
+<script>
+(function() {
+    const faders = document.querySelectorAll('.fade-in');
+    const waitlistForm = document.getElementById('waitlistForm');
+    const landingPage = document.getElementById('landingPage');
+    const thankYouPage = document.getElementById('thankYouPage');
+    const returnHomeBtn = document.getElementById('returnHomeBtn');
+    const shareBtn = document.getElementById('shareBtn');
+    const copyReferralBtn = document.getElementById('copyReferralBtn');
+    const floatingJoinBtn = document.getElementById('floatingJoinBtn');
+    const referralLinkInput = document.getElementById('referralLinkInput');
+
+    const appearOptions = { threshold: 0.12 };
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+        });
+    }, appearOptions);
+    faders.forEach(fader => appearOnScroll.observe(fader));
+
+    const params = new URLSearchParams(window.location.search);
+    const setValue = (id, value) => {
+        const el = document.getElementById(id);
+        if (el) el.value = value || '';
+    };
+
+    function slugify(value) {
+        return String(value || '')
+            .toLowerCase()
+            .trim()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '')
+            .slice(0, 32);
+    }
+
+    function generateReferralCode(name, email) {
+        const base = slugify(name || (email ? email.split('@')[0] : 'anchor')) || 'anchor';
+        const suffix = Math.random().toString(36).slice(2, 8);
+        return `${base}-${suffix}`;
+    }
+
+    function getBaseUrl() {
+        return window.location.origin + window.location.pathname;
+    }
+
+    function buildReferralLink(code) {
+        const url = new URL(getBaseUrl());
+        url.searchParams.set('utm_source', 'referral');
+        url.searchParams.set('utm_medium', 'patient-share');
+        url.searchParams.set('utm_campaign', 'founding-member-referral');
+        url.searchParams.set('referral_code', code);
+        return url.toString();
+    }
+
+    function populateTrackingFields() {
+        setValue('submittedAt', new Date().toISOString());
+        setValue('referrerUrl', document.referrer || 'direct');
+        setValue('pageUrl', window.location.href);
+        setValue('utmSource', params.get('utm_source'));
+        setValue('utmMedium', params.get('utm_medium'));
+        setValue('utmCampaign', params.get('utm_campaign'));
+        setValue('utmTerm', params.get('utm_term'));
+        setValue('utmContent', params.get('utm_content'));
+        setValue('referralCodeField', params.get('referral_code'));
+        setValue('referringSourceLinkField', document.referrer || 'direct');
+    }
+
+    function showThankYouPage(referralLink = '') {
+        landingPage.classList.add('hidden');
+        thankYouPage.classList.remove('hidden');
+        if (referralLinkInput) {
+            referralLinkInput.value = referralLink;
+        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function showLandingPage() {
+        thankYouPage.classList.add('hidden');
+        landingPage.classList.remove('hidden');
+        history.replaceState({}, '', window.location.pathname);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    populateTrackingFields();
+
+    if (waitlistForm) {
+        waitlistForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            populateTrackingFields();
+
+            const nameValue = waitlistForm.querySelector('input[name="name"]')?.value || '';
+            const emailValue = waitlistForm.querySelector('input[name="email"]')?.value || '';
+            const existingReferralCode = params.get('referral_code') || '';
+            const personalReferralCode = generateReferralCode(nameValue, emailValue);
+            setValue('referralCodeField', existingReferralCode);
+
+            const formData = new FormData(waitlistForm);
+            formData.set('generated_referral_code', personalReferralCode);
+            formData.set('generated_referral_link', buildReferralLink(personalReferralCode));
+            formData.set('referred_by_code', existingReferralCode);
+
+            const submitButton = waitlistForm.querySelector('button[type="submit"]');
+            const originalText = submitButton.textContent;
+            submitButton.disabled = true;
+            submitButton.textContent = 'Submitting...';
+
+            try {
+                const response = await fetch(waitlistForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    const source = document.getElementById('leadSource')?.value || params.get('utm_source') || 'unknown';
+                    const generatedLink = buildReferralLink(personalReferralCode);
+                    sessionStorage.setItem('anchor_referral_link', generatedLink);
+                    sessionStorage.setItem('anchor_referral_code', personalReferralCode);
+
+                    const thankYouParams = new URLSearchParams(window.location.search);
+                    thankYouParams.set('submitted', 'true');
+                    thankYouParams.set('source_recorded', source);
+                    thankYouParams.set('my_referral_code', personalReferralCode);
+                    history.replaceState({}, '', `${window.location.pathname}?${thankYouParams.toString()}`);
+                    showThankYouPage(generatedLink);
+                } else {
+                    alert('There was a problem submitting the form. Please try again.');
+                }
+            } catch (error) {
+                alert('There was a problem submitting the form. Please try again.');
+            } finally {
+                submitButton.disabled = false;
+                submitButton.textContent = originalText;
+            }
+        });
+    }
+
+    const storedReferralLink = sessionStorage.getItem('anchor_referral_link');
+    if (params.get('submitted') === 'true') {
+        showThankYouPage(storedReferralLink || buildReferralLink(params.get('my_referral_code') || 'anchor-share'));
+    }
+
+    if (returnHomeBtn) {
+        returnHomeBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            showLandingPage();
+        });
+    }
+
+    if (copyReferralBtn) {
+        copyReferralBtn.addEventListener('click', async function() {
+            const value = referralLinkInput?.value || '';
+            if (!value) return;
+            try {
+                await navigator.clipboard.writeText(value);
+                copyReferralBtn.textContent = 'Copied';
+                setTimeout(() => {
+                    copyReferralBtn.textContent = 'Copy Referral Link';
+                }, 1600);
+            } catch (err) {
+                referralLinkInput.select();
+            }
+        });
+    }
+
+    if (shareBtn) {
+        shareBtn.addEventListener('click', async function(e) {
+            e.preventDefault();
+            const url = referralLinkInput?.value || getBaseUrl();
+            if (navigator.share) {
+                try {
+                    await navigator.share({
+                        title: 'Anchor Direct Primary Care',
+                        text: 'Join the founding member waitlist for Anchor Direct Primary Care.',
+                        url
+                    });
+                } catch (err) {}
+            } else {
+                try {
+                    await navigator.clipboard.writeText(url);
+                    alert('Referral link copied to clipboard.');
+                } catch (err) {
+                    window.location.href = url;
+                }
+            }
+        });
+    }
+
+    function handleFloatingJoinVisibility() {
+        if (!floatingJoinBtn) return;
+        const heroHeight = document.querySelector('.hero')?.offsetHeight || 500;
+        const shouldShow = window.innerWidth <= 768 && window.scrollY > Math.max(320, heroHeight * 0.45) && !thankYouPage || (!thankYouPage.classList.contains('hidden') ? false : false);
+        if (shouldShow && thankYouPage.classList.contains('hidden')) {
+            floatingJoinBtn.classList.add('visible');
+        } else {
+            floatingJoinBtn.classList.remove('visible');
+        }
+    }
+
+    window.addEventListener('scroll', handleFloatingJoinVisibility, { passive: true });
+    window.addEventListener('resize', handleFloatingJoinVisibility);
+    handleFloatingJoinVisibility();
+}
+)();
+</script>
+</body>
+</html>
