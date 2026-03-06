@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anchors Direct Primary Care | Greenville, TX</title>
+<title>Anchor Direct Primary Care | Greenville, TX</title>
 <meta name="description" content="Join the founding member waitlist for Anchor Direct Primary Care in Greenville, Texas. Relationship-based care, transparent pricing, and direct access to your provider.">
 <meta name="theme-color" content="#0B3C5D">
 <style>
@@ -111,9 +111,28 @@ p { margin-top: 0; }
 }
 .btn-full { width: 100%; }
 
+/* NEW TOP HEADER LOGO */
+.site-header {
+    background: linear-gradient(180deg, #F9FBFD 0%, #EEF4F8 100%);
+    padding: 28px 20px 10px;
+}
+.site-header-inner {
+    max-width: var(--max);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-logo {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+}
+
+/* HERO */
 .hero {
     background: linear-gradient(180deg, #F9FBFD 0%, #EEF4F8 100%);
-    padding: 56px 20px 88px;
+    padding: 30px 20px 88px;
 }
 .hero-grid {
     display: grid;
@@ -159,10 +178,6 @@ p { margin-top: 0; }
     box-shadow: var(--shadow);
     border-radius: 20px;
     padding: 28px;
-}
-.hero-logo {
-    max-width: 300px;
-    margin: 0 auto 18px;
 }
 .hero-form-title {
     text-align: center;
@@ -603,7 +618,9 @@ th {
     .testimonial-grid,
     .next-steps,
     .stats-grid,
-    .referral-rewards { grid-template-columns: 1fr; }
+    .referral-rewards {
+        grid-template-columns: 1fr;
+    }
     .hero-copy { text-align: center; }
     .hero-bullets { grid-template-columns: 1fr; }
     .stat { border-right: none; border-bottom: 1px solid var(--border); }
@@ -613,7 +630,9 @@ th {
 
 @media (max-width: 768px) {
     section { padding: 64px 18px; }
-    .hero { padding: 38px 18px 88px; }
+    .site-header { padding: 20px 18px 6px; }
+    .site-logo { max-width: 360px; }
+    .hero { padding: 24px 18px 88px; }
     .hero-actions { flex-direction: column; }
     .hero-actions .btn { width: 100%; }
     .trust-row { grid-template-columns: 1fr; }
@@ -628,28 +647,24 @@ th {
         display: none;
     }
 }
-    .hero { padding: 38px 18px 88px; }
-    .hero-actions { flex-direction: column; }
-    .hero-actions .btn { width: 100%; }
-    .trust-row { grid-template-columns: 1fr; }
-    .mobile-sticky-cta { display: block; }
-    body.has-sticky-space { padding-bottom: 88px; }
-    .referral-link-wrap { flex-direction: column; }
-}
 
 @media (max-width: 560px) {
     h1 { font-size: 34px; line-height: 1.2; }
     .hero-subheadline { font-size: 18px; }
     .thankyou-card h1 { font-size: 34px; }
-}
-    .hero-subheadline { font-size: 18px; }
-    .thankyou-card h1 { font-size: 34px; }
+    .site-logo { max-width: 300px; }
 }
 </style>
 </head>
 <body class="has-sticky-space">
 
 <div id="landingPage">
+    <header class="site-header">
+        <div class="site-header-inner">
+            <img src="logo.png" alt="Anchor Direct Primary Care Logo" class="site-logo">
+        </div>
+    </header>
+
     <section class="hero" id="top">
         <div class="container hero-grid">
             <div class="hero-copy">
@@ -677,7 +692,6 @@ th {
             </div>
 
             <div class="hero-card fade-in" id="join">
-                <img src="logo.png" alt="Anchor Direct Primary Care Logo" class="hero-logo">
                 <div class="hero-form-title">Reserve Founding Member Updates</div>
                 <div class="hero-form-subtitle">
                     Founding member pricing is <strong>$79/month for the first 75 members</strong>. Join now for early access and opening updates.
@@ -983,8 +997,6 @@ th {
             </div>
         </div>
     </section>
-
-    
 </div>
 
 <div id="thankYouPage" class="thankyou-page hidden">
@@ -1251,8 +1263,12 @@ th {
     function handleFloatingJoinVisibility() {
         if (!floatingJoinBtn) return;
         const heroHeight = document.querySelector('.hero')?.offsetHeight || 500;
-        const shouldShow = window.innerWidth <= 768 && window.scrollY > Math.max(320, heroHeight * 0.45) && !thankYouPage || (!thankYouPage.classList.contains('hidden') ? false : false);
-        if (shouldShow && thankYouPage.classList.contains('hidden')) {
+        const shouldShow =
+            window.innerWidth <= 768 &&
+            window.scrollY > Math.max(320, heroHeight * 0.45) &&
+            thankYouPage.classList.contains('hidden');
+
+        if (shouldShow) {
             floatingJoinBtn.classList.add('visible');
         } else {
             floatingJoinBtn.classList.remove('visible');
@@ -1262,9 +1278,7 @@ th {
     window.addEventListener('scroll', handleFloatingJoinVisibility, { passive: true });
     window.addEventListener('resize', handleFloatingJoinVisibility);
     handleFloatingJoinVisibility();
-}
-)();
+})();
 </script>
 </body>
 </html>
-
