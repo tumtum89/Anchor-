@@ -561,26 +561,6 @@ th {
     margin-top: 12px;
 }
 
-.mobile-sticky-cta {
-    display: none;
-    position: fixed;
-    left: 12px;
-    right: 12px;
-    bottom: 12px;
-    z-index: 999;
-    background: rgba(255,255,255,0.96);
-    border: 1px solid rgba(216,226,233,0.95);
-    box-shadow: 0 12px 40px rgba(11,60,93,0.16);
-    border-radius: 16px;
-    padding: 10px;
-    backdrop-filter: blur(10px);
-}
-.mobile-sticky-cta .btn {
-    width: 100%;
-    min-height: 60px;
-    font-size: 18px;
-}
-
 .floating-join-btn {
     position: fixed;
     right: 16px;
@@ -634,31 +614,6 @@ th {
     .stat { border-right: none; border-bottom: 1px solid var(--border); }
     .stat:last-child { border-bottom: none; }
     .form-row { grid-template-columns: 1fr; }
-}
-
-@media (max-width: 768px) {
-    section { padding: 64px 18px; }
-
-    .site-header {
-        padding: 4px 18px 0;
-    }
-
-    .site-logo {
-        max-width: 100%;
-        max-height: 84px;
-    }
-
-    .hero {
-        padding: 0 18px 88px;
-    }
-
-    .hero-actions { flex-direction: column; }
-    .hero-actions .btn { width: 100%; }
-    .trust-row { grid-template-columns: 1fr; }
-    .mobile-sticky-cta { display: block; }
-    .floating-join-btn { display: inline-flex; }
-    body.has-sticky-space { padding-bottom: 88px; }
-    .referral-link-wrap { flex-direction: column; }
 }
 
 @media (min-width: 769px) {
@@ -1089,10 +1044,6 @@ th {
 
 <a href="#join" id="floatingJoinBtn" class="floating-join-btn">Get Early Access</a>
 
-<div class="mobile-sticky-cta">
-    <a href="#join" class="btn btn-primary">Get Early Access</a>
-</div>
-
 <script>
 (function() {
     const faders = document.querySelectorAll('.fade-in');
@@ -1308,3 +1259,4 @@ th {
 </script>
 </body>
 </html>
+
