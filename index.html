@@ -111,29 +111,35 @@ p { margin-top: 0; }
 }
 .btn-full { width: 100%; }
 
-/* NEW TOP HEADER LOGO */
+/* TOP HEADER LOGO */
 .site-header {
     background: linear-gradient(180deg, #F9FBFD 0%, #EEF4F8 100%);
-    padding: 28px 20px 10px;
+    padding: 6px 20px 0;
 }
+
 .site-header-inner {
-    max-width: var(--max);
+    max-width: 1320px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .site-logo {
     width: 100%;
-    max-width: 520px;
+    max-width: 1180px;
+    max-height: 135px;
+    object-fit: contain;
     height: auto;
+    opacity: 1;
 }
 
 /* HERO */
 .hero {
-    background: linear-gradient(180deg, #F9FBFD 0%, #EEF4F8 100%);
-    padding: 30px 20px 88px;
+    background: linear-gradient(180deg, #EEF4F8 0%, #F9FBFD 100%);
+    padding: 0 20px 88px;
 }
+
 .hero-grid {
     display: grid;
     grid-template-columns: 1.08fr 0.92fr;
@@ -612,6 +618,7 @@ th {
 @media (max-width: 980px) {
     h1 { font-size: 40px; }
     h2 { font-size: 32px; }
+
     .hero-grid,
     .about-grid,
     .card-grid,
@@ -621,6 +628,7 @@ th {
     .referral-rewards {
         grid-template-columns: 1fr;
     }
+
     .hero-copy { text-align: center; }
     .hero-bullets { grid-template-columns: 1fr; }
     .stat { border-right: none; border-bottom: 1px solid var(--border); }
@@ -630,9 +638,20 @@ th {
 
 @media (max-width: 768px) {
     section { padding: 64px 18px; }
-    .site-header { padding: 20px 18px 6px; }
-    .site-logo { max-width: 360px; }
-    .hero { padding: 24px 18px 88px; }
+
+    .site-header {
+        padding: 4px 18px 0;
+    }
+
+    .site-logo {
+        max-width: 100%;
+        max-height: 84px;
+    }
+
+    .hero {
+        padding: 0 18px 88px;
+    }
+
     .hero-actions { flex-direction: column; }
     .hero-actions .btn { width: 100%; }
     .trust-row { grid-template-columns: 1fr; }
@@ -652,7 +671,14 @@ th {
     h1 { font-size: 34px; line-height: 1.2; }
     .hero-subheadline { font-size: 18px; }
     .thankyou-card h1 { font-size: 34px; }
-    .site-logo { max-width: 300px; }
+
+    .site-header {
+        padding: 2px 14px 0;
+    }
+
+    .site-logo {
+        max-height: 66px;
+    }
 }
 </style>
 </head>
